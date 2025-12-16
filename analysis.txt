@@ -1,1 +1,22 @@
+Dataset Used:
+Wine dataset from sklearn.datasets
 
+Selected Features:
+- alcohol
+- malic_acid
+- color_intensity
+- flavanoids
+
+Observations:
+The histograms show that alcohol and flavanoids have relatively smooth distributions,
+while color_intensity is more skewed.
+
+Correlation Analysis:
+The scatter plot between alcohol and flavanoids shows a positive correlation.
+As alcohol content increases, flavanoid levels tend to increase as well.
+This relationship appears moderately strong and roughly linear, which is confirmed
+by the regression line in the correlation plot.
+
+Conclusion:
+Alcohol content is positively associated with flavanoid concentration in the wine dataset.
+This suggests that wines with higher alcohol levels may also have higher flavanoid content.
